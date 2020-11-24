@@ -21,3 +21,17 @@ Game of SNAP from one of my first ever programming assignments!
 ### **User Guide**
 
 ![User Guide](Screenshots/snapIT_help.PNG)
+
+## Setup
+
+```
+Clone this Repo
+
+Open the index.html in your browser
+
+Open the page inspect tool
+
+Switch to a responsive view
+```
+
+**HAVE FUN!**
