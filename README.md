@@ -4,7 +4,7 @@
 
 Game of SNAP from one of my first ever programming assignments!
 
-![logo](Images/snapIT Logo.PNG)
+![logo](Images/Logo.PNG)
 
 ## Setup
 
