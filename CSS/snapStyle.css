@@ -1,0 +1,174 @@
+/* Alex Duthie / 12010280 - Inverness College, UHI (NQ Level 6 Computing) */
+
+html, body 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: #2b3b4d;
+	color: white;
+}
+
+/* NAV SECTION (ALL PAGES) */
+
+#nav_section 
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+	padding-bottom: 10px;
+	border-bottom: solid 20px;
+	border-image: linear-gradient(to left, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+	/* https://css-tricks.com/guides/css-gradients/ is the site is one of the sources where I learned how to use CSS gradient methods */
+}
+
+.nav_link 
+{
+    color: white;
+    cursor: pointer;
+    min-width: 25%;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 600%;
+    border: solid 1px white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.nav_link:active
+{
+    background-color: white;
+    color: black;
+    cursor: pointer; 
+}
+
+/* Buttons (ALL PAGES) */
+
+input[type=button]
+{
+    font-size: 170%;
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 50px/50px;
+    border: solid 20px darkslategray;
+    background-color: white;
+    padding: 7px;
+}
+
+/* HOME PAGE */
+
+#homePage h1
+{
+	font-size: 500%;
+	text-align: center;
+    text-decoration: underline;
+}
+
+#homeInfo {
+    overflow: auto;
+    text-align: center;
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 15%;
+    background-color: darkslategray;
+    border: solid 10px black;
+    border-radius: 50px/50px;
+    font-weight: bold;
+}
+
+#homeInfo p
+{
+    font-size: 250%;
+}
+
+#homeInfo span{
+    font-size: 250%;
+}
+
+#home_links input[type=button] 
+{
+    font-size: 600%;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: 600;
+}
+
+#home_links:active {
+    cursor: pointer;
+}
+
+
+/* GAME PAGE */
+
+/** SCORES AND RESULTS (GAME PAGE) **/
+
+#score p
+{ 
+    font-size: 60px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50px/50px;
+    border: solid 4px white;
+    padding: 20px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#result
+{
+    font-weight: bold;
+}
+
+/** CARDS (GAME PAGE) **/
+
+#cards 
+{
+    margin-top: 12.5%;
+    font-size: 100px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+
+#cardOne, #cardTwo {
+    height: 25%;
+    border: solid 15px black;
+    color: red;
+    border-radius: 75px/75px;
+    background-image: url("https://comp-hons.uhi.ac.uk/~12010280/MyApp_AD_NQ6/2.%20SnapIT/Images/snapIT%20Logo.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+#cardOne
+{
+    margin-bottom: 5%;
+}
+
+/* Info Page */
+
+#infoSection{
+    text-align: center;
+    font-size: 320%;
+}
+
+#infoSection h1 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+#developerInfo, #clientInfo, #snapItInfo{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    min-height: 20%;
+    max-height: 30%;
+    border: solid 10px black;
+    border-radius: 50px/50px;
+    background-color: darkslategray
+}
+
